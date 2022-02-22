@@ -1,0 +1,70 @@
+.navbar {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #dbdbdb;
+}
+.navbar__container__logo {
+  display: flex;
+  width: 350px;
+}
+
+.navbar__logo {
+  margin-left: 32px;
+}
+
+.navbar__input {
+    width: 300px;
+  min-width: 200px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background: #efefef;
+  border-radius: 10px;
+}
+
+.navbar__input svg {
+  padding-left: 15px;
+}
+
+.navbar__input_text {
+  color: #8e8e8e;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+.navbar__icons {
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  padding-left: 50px;
+}
+
+.navbar__icons svg {
+  padding: 0px 12px 0px 12px;
+}
+
+.navbar__profile {
+  width: 25px;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+@media (max-width: 700px) {
+    .navbar__container__logo {
+        width: 30%;
+      }
+      
+  .navbar__input {
+    display: none;
+  }
+
+  .navbar {
+justify-content: flex-start;
+  }
+
+  .navbar__icons {
+    width: fit-content;
+  }
+}
