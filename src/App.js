@@ -1,13 +1,15 @@
-
 import './App.css';
-
 import Navbar from './components/navbar/navbar.js'
+import Histories from './components/histories/Histories.js'
 
 function App() {
   return (
-    <div className="App">
+    <>
      < Navbar />
+    <div className="App">
+     < Histories />
     </div>
+    </>
   );
 }
 
