@@ -18,11 +18,11 @@ function navbar() {
       <span className='navbar__input_text'>Buscar</span>
       </div>
       <div className='navbar__icons'>
-      <Icons.SvgHome/>
-      <Icons.SvgDirect/>
-      <Icons.SvgPost/>
-      <Icons.SvgBrujula/>
-      <Icons.SvgHeart/>
+      <Icons.SvgHome className='svgHome'/>
+      <Icons.SvgDirect className='svgDirect'/>
+      <Icons.SvgPost className='svgPost'/>
+      <Icons.SvgBrujula className='svgBrujula'/>
+      <Icons.SvgHeart className='svgHeart'/>
       <img className='navbar__profile' src={ImgProfile}/>
       </div>
      </nav>

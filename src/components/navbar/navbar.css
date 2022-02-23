@@ -67,4 +67,15 @@ justify-content: flex-start;
   .navbar__icons {
     width: fit-content;
   }
+
+  .svgHome,
+  .svgBrujula,
+  .navbar__profile
+  {
+display: none;
+  }
+
+  .navbar{
+    justify-content: space-between;
+  }
 }
