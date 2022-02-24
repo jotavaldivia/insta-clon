@@ -1,5 +1,7 @@
 import React from 'react'
 import './navbar.css';
+
+
 import LogoInstagram from '../../assets/images/logo_instagram.png'
 import ImgProfile from '../../assets/images/profile.jpg'
 import Icons from '../svg/Svg'; 

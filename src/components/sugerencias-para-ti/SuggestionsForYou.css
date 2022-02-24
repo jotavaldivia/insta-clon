@@ -1,0 +1,49 @@
+.section__suggestions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.section__suggestions__profileImg{
+    width: 50px;
+    border-radius: 50%;
+  
+}
+.section__suggestions__suggestionsForYou{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+margin-left: 0.7rem;
+}
+
+.section__suggestions__iconPorfile img{
+    width: 20px;
+}
+    
+
+.section__suggestions__suggestionsForYou p{
+margin: 0px;
+font-size: 0.8rem;
+font-weight: bold;
+}
+
+.section__suggestions__suggestionsForYou span{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.section__suggestions__bottom{
+    margin-left: 1rem;
+    color: #35abf6;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.section__suggestions .containerHistories__elements .histories_circule::after{
+    background: #dfdfdf;
+
+}
