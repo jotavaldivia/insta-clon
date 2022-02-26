@@ -1,1 +1,131 @@
+.container__post {
+  border: 1px solid #dbdbdb;
+  max-width: 610px;
+  margin-top: 1rem;
+}
 
+.container__post .containerHistories__elements {
+  align-items: flex-start;
+}
+
+.container__post .containerHistories__elements .histories_circule {
+  margin-left: -6px;
+}
+
+.container__post__userName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.container__post__userName--left{
+display: flex;
+align-items: center;
+}
+
+.container__post__userName--right{
+  margin-right: 0.5rem;
+}
+
+.container__post__img img {
+  width: 100%;
+  height: auto;
+}
+
+.container__post__icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.container__post__icons svg {
+  margin-left: 10px;
+}
+.container__post_yourlikes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container__post_yourlikes img {
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container__post_yourlikes span {
+  font-size: 0.9rem;
+}
+
+.container__post__myacount {
+  margin-left: 10px;
+}
+
+.container__post__myacount span {
+  margin-left: 10px;
+}
+
+.container__post__comment {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.container__post__comment span {
+  margin-top: 0.5rem;
+}
+.container__post__comment--viewComment {
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.container__post__comment--dateComment {
+  letter-spacing: 0.2px;
+  font-size: 10px;
+  color: #8e8e8e;
+  margin-bottom: 0.6rem;
+}
+
+.container__post__comment--postComment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container__post__comment--postComment--elements {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container__post__comment--postComment--elements svg {
+  width: 30px;
+  margin-right: 0.8rem;
+}
+
+.container__post__comment--postComment--elements input {
+  border: 0px;
+  width: 100%;
+  height: 30px;
+}
+
+.container__post__comment--postComment a {
+  margin-left: 10px;
+  width: 80px;
+  color: #0095f6;
+}
+
+.container__post__comment--postComment--elements input:focus {
+  border: 0px;
+  outline: none;
+}
+
+@media (max-width: 960px) {
+  .container__post {
+    margin: 0 auto;
+  }
+}

@@ -48,3 +48,10 @@
 .histories_name{
     font-size: 0.7rem;
 } 
+
+
+@media (max-width: 960px) {
+    .containerHistories{
+        margin-top: 0px;
+    }
+  }

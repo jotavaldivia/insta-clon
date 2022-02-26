@@ -15,6 +15,8 @@ function App() {
       </section>
 
       <Post/>
+      <Post/>
+      <Post/>
      
     </div>
     </>
