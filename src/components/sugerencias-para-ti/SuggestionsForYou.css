@@ -1,10 +1,11 @@
 .section__suggestions{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-left: 2rem;
     position: relative;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .section__suggestions__profileImg{
@@ -47,3 +48,31 @@ font-weight: bold;
     background: #dfdfdf;
 
 }
+
+.section__forYou{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section__forYou__all{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section__forYou__all span{
+    color: #8e8e8e;
+}
+
+.section__forYou__all a{
+color: #262626;
+font-size: 0.8rem;
+font-weight: 600;
+}
+
+@media (max-width: 960px) {
+    .section__suggestions {
+      display: none;
+    }
+  }

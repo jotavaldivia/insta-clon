@@ -1,11 +1,12 @@
  .containerHistories{
-    margin-top: 40px;
+    margin-top: 27px;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #dbdbdb;
     width: fit-content;
+    height: 80px;
 }
 
 .histories_name{
