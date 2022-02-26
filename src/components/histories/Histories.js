@@ -1,55 +1,43 @@
-import React from 'react'
-import './Histories.css'
-import ImgProfile from '../../assets/images/profile.jpg'
+import React from "react";
+import "./Histories.css";
+
+import IconProfile from "../icon_profile/IconProfile";
 
 function Histories() {
   return (
     <>
-    
-    <div className="containerHistories">
-<div className="containerHistories__elements">
-    <div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-<div className="containerHistories__elements">
-<div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-<div className="containerHistories__elements">
-<div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-<div className="containerHistories__elements">
-<div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-<div className="containerHistories__elements">
-<div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-<div className="containerHistories__elements">
-<div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-<div className="containerHistories__elements">
-<div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-<div className="containerHistories__elements">
-<div class="histories_circule"></div>
-    <img src={ImgProfile} className='histories_img' />
-    <span className='histories_name'>tu usuario</span>
-</div>
-    </div>
+      <div className="containerHistories">
+        <div className="containerHistories_elements">
+          <IconProfile />
+          <span className="histories_name">tu usuario</span>
+        </div>
+        <div className="containerHistories_elements">
+          <IconProfile />
+          <span className="histories_name">tu usuario</span>
+        </div>
+        <div className="containerHistories_elements">
+          <IconProfile />
+          <span className="histories_name">tu usuario</span>
+        </div>
+        <div className="containerHistories_elements">
+          <IconProfile />
+          <span className="histories_name">tu usuario</span>
+        </div>
+        <div className="containerHistories_elements">
+          <IconProfile />
+          <span className="histories_name">tu usuario</span>
+        </div>
+        <div className="containerHistories_elements">
+          <IconProfile />
+          <span className="histories_name">tu usuario</span>
+        </div>
+        <div className="containerHistories_elements">
+          <IconProfile />
+          <span className="histories_name">tu usuario</span>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default Histories
+export default Histories;
