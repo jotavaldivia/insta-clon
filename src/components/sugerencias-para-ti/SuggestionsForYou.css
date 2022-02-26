@@ -35,6 +35,7 @@ font-weight: bold;
 .section__suggestions__suggestionsForYou span{
     font-size: 0.8rem;
     font-weight: 400;
+    color: #8e8e8e;
 }
 
 .section__suggestions__bottom{
@@ -70,6 +71,10 @@ color: #262626;
 font-size: 0.8rem;
 font-weight: 600;
 }
+
+.section__suggestions_Footer{
+    margin-top: 1rem;
+   }
 
 @media (max-width: 960px) {
     .section__suggestions {

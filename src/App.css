@@ -11,3 +11,12 @@
   justify-content: center;
   
 }
+
+
+@media (max-width: 960px) {
+  .container__histories__suggestions{
+    height: 122px;
+    
+  }
+}
+

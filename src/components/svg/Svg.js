@@ -128,8 +128,78 @@ const SvgSearch = (props) => (
 )
 
 
+const SvgComment = (props) => (
+  <svg
+    aria-label="Comentar"
+    className="_8-yf5"
+    color="#262626"
+    fill="#262626"
+    height={24}
+    width={24}
+    {...props}
+  >
+    <path
+      d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22z"
+      fill="none"
+      stroke="currentColor"
+      strokeLinejoin="round"
+      strokeWidth={2}
+    />
+  </svg>
+)
 
 
+const SvgSave = (props) => (
+  <svg
+    aria-label="Guardar"
+    className="_8-yf5"
+    color="#262626"
+    fill="#262626"
+    height={24}
+    width={24}
+    {...props}
+  >
+    <path
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="m20 21-8-7.56L4 21V3h16v18z"
+    />
+  </svg>
+)
+
+
+const SvgFaceSmile = (props) => (
+  <svg
+    aria-label="Emoji"
+    className="_8-yf5"
+    color="#262626"
+    fill="#262626"
+    height={24}
+    width={24}
+    {...props}
+  >
+    <path d="M15.83 10.997a1.167 1.167 0 1 0 1.167 1.167 1.167 1.167 0 0 0-1.167-1.167zm-6.5 1.167a1.167 1.167 0 1 0-1.166 1.167 1.167 1.167 0 0 0 1.166-1.167zm5.163 3.24a3.406 3.406 0 0 1-4.982.007 1 1 0 1 0-1.557 1.256 5.397 5.397 0 0 0 8.09 0 1 1 0 0 0-1.55-1.263zM12 .503a11.5 11.5 0 1 0 11.5 11.5A11.513 11.513 0 0 0 12 .503zm0 21a9.5 9.5 0 1 1 9.5-9.5 9.51 9.51 0 0 1-9.5 9.5z" />
+  </svg>
+)
+
+const SvgPoints = (props) => (
+  <svg
+    aria-label="M\xE1s opciones"
+    className="_8-yf5"
+    color="#262626"
+    fill="#262626"
+    height={24}
+    width={24}
+    {...props}
+  >
+    <circle cx={12} cy={12} r={1.5} />
+    <circle cx={6} cy={12} r={1.5} />
+    <circle cx={18} cy={12} r={1.5} />
+  </svg>
+)
 
 let icons = {
   SvgHome,
@@ -137,7 +207,11 @@ let icons = {
   SvgPost,
   SvgBrujula,
   SvgHeart,
-  SvgSearch
+  SvgSearch,
+  SvgComment,
+  SvgSave,
+  SvgFaceSmile,
+  SvgPoints
 }
 
 export default icons
