@@ -1,0 +1,97 @@
+.container_login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_login__backgroundImage {
+  position: relative;
+  background-image: url(../../assets/images/fondo_phone.png);
+  margin-left: -35px;
+  background-position: 0 0;
+  background-size: 454px 618px;
+  -webkit-flex-basis: 454px;
+  -ms-flex-preferred-size: 454px;
+  flex-basis: 454px;
+  height: 618px;
+  margin-right: -15px;
+}
+.container_login__img {
+  position: absolute;
+  height: 427px;
+  width: 240px;
+  bottom: 0px;
+  top: 100px;
+  left: 151px;
+  right: 0px;
+}
+
+
+
+.container_login_form{
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.container_login_form__input{
+  display: flex;
+  flex-direction: column;
+}
+
+.container_login_form__input input{
+  width: 268px;
+ padding: 5px;
+ background: #fafafa;
+ border: 0;
+ -webkit-box-flex: 1;
+ -webkit-flex: 1 0 auto;
+ -ms-flex: 1 0 auto;
+ flex: 1 0 auto;
+ outline: 0;
+ overflow: hidden;
+ padding: 9px 0 7px 8px;
+ text-overflow: ellipsis;
+ border: 1px solid #dbdbdb;
+ margin-top: 1rem;
+
+}
+
+
+
+.container_login_form__input a{
+  margin-top: 1rem;
+background-color: rgba(0,149,246,.3);
+color: white;
+text-align: center;
+padding: 4px;
+margin-bottom: 1rem;
+}
+
+.container_login_separator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container_login_separator--left{
+  width: 120px;
+  background-color: #ffffff;
+  height: 1px;
+  margin-right: 10px;
+}
+
+.container_login_separator--rigth{
+  width: 120px;
+  background-color: #ffffff;
+  height: 1px;
+  margin-left: 10px;
+}
+
+

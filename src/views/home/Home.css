@@ -1,0 +1,23 @@
+
+.App {
+    margin: 0 auto;
+    max-width: 950px;
+  }
+  
+  
+  .container__histories__suggestions{
+    display: flex;
+    height: 170px;
+    justify-content: center;
+    
+  }
+  
+  
+  @media (max-width: 960px) {
+    .container__histories__suggestions{
+      height: 122px;
+      
+    }
+  }
+  
+  

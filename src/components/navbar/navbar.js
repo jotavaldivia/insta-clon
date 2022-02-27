@@ -1,4 +1,5 @@
 import React from 'react'
+// import {Link} from "react-router-dom";
 import './navbar.css';
 
 
@@ -11,9 +12,10 @@ import Icons from '../svg/Svg';
 function navbar() {
   return (
     <>
+     
      <nav className="navbar">
        <div className='navbar__container__logo'>
-       <img className='navbar__logo' src={LogoInstagram}/>
+       <img className='navbar__logo' src={LogoInstagram} alt="description of imagee"/>
        </div>
       <div className='navbar__input'>
       <Icons.SvgSearch/>
@@ -25,7 +27,7 @@ function navbar() {
       <Icons.SvgPost className='svgPost'/>
       <Icons.SvgBrujula className='svgBrujula'/>
       <Icons.SvgHeart className='svgHeart'/>
-      <img className='navbar__profile' src={ImgProfile}/>
+      <img className='navbar__profile' src={ImgProfile} alt="description of imagee"/>
       </div>
      </nav>
     </>
