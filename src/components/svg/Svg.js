@@ -201,7 +201,7 @@ const SvgPoints = (props) => (
   </svg>
 )
 
-let icons = {
+export {
   SvgHome,
   SvgDirect,
   SvgPost,
@@ -213,5 +213,3 @@ let icons = {
   SvgFaceSmile,
   SvgPoints
 }
-
-export default icons

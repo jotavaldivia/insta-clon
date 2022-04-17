@@ -19,10 +19,11 @@
 }
 
 .histories_img{
-    width: 49.5px;
+    width: 53px;
+    height:53px; 
     border-radius: 50%;
     position: absolute;
-    top: 5.8px;
+    /* top: 5.8px; */
 }
 
 .histories_circule{

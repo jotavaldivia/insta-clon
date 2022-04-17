@@ -1,9 +1,12 @@
 import React from "react";
 import IconProfile from "../icon_profile/IconProfile";
-import Icons from "../svg/Svg";
+import {SvgPoints,SvgHeart,SvgSave,SvgComment,SvgDirect,SvgFaceSmile} from "../svg/Svg";
 import "./Post.css";
 import ImgProfile from "../../assets/images/profile.jpg";
+import useUser from '../../hooks/useUser.js'
 function Post() {
+  const userdata = useUser();
+  console.log(userdata)
   return (
     <>
       <div className="container__post">
@@ -13,7 +16,7 @@ function Post() {
           <span>Tu Usuario</span>
           </div>
           <div className="container__post__userName--right">
-          <Icons.SvgPoints />
+          <SvgPoints />
           </div>
          
         </div>
@@ -23,11 +26,11 @@ function Post() {
 
         <div className="container__post__icons">
           <div className="container__post__icons--left">
-            <Icons.SvgHeart />
-            <Icons.SvgComment /> <Icons.SvgDirect />
+            <SvgHeart />
+            <SvgComment /> <SvgDirect />
           </div>
           <div className="container__post__icons--right">
-            <Icons.SvgSave />
+            <SvgSave />
           </div>
         </div>
 
@@ -54,7 +57,7 @@ function Post() {
 
           <div className="container__post__comment--postComment">
             <div className="container__post__comment--postComment--elements">
-              <Icons.SvgFaceSmile />
+              <SvgFaceSmile />
               <input placeholder="Agrega un comentario..." />
             </div>
             <a>Publicar</a>
